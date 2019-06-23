@@ -736,7 +736,7 @@ function Step3() {
               </ThemeProvider>
               <div
                 className="fb-like"
-                data-href="https://3rdqo.codesandbox.io/"
+                // data-href="https://clickfunnels.affiliateteams.com.au/clickfunnels-pricing/"
                 data-layout="standard"
                 data-action="like"
                 data-show-faces="true"
@@ -756,6 +756,7 @@ function Step3() {
                     target="_blank"
                     variant="body2"
                     className={classes.fbgrouplink}
+                    href="https://www.facebook.com/groups/clickfunnelsaffiliate24hourchallenge/"
                   >
                     JOIN “ClickFunnels Affiliate 24-Hour Challenge” Facebook Group
                   </Link>
@@ -806,6 +807,7 @@ function Step4() {
         </Typography>
       </ThemeProvider>
 
+{/*
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b} variant="h5" component="p">
           <strong>
@@ -857,6 +859,7 @@ function Step4() {
           </Button>
         </CardActions>
       </Card>
+*/}
 
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b3} variant="h5" component="p">
@@ -915,63 +918,65 @@ function Step4() {
         </CardActions>
       </Card>
 
-      <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b3} variant="h5" component="p">
-          <strong>
-            <u>DCS 108 Split Tests</u> — Free Book! 108 Proven Split Test
-            Winners! "Simple Tweaks You Can Make To Your Website, So You Can
-            Make More Money Now!"
-          </strong>
-        </Typography>
-
-        <Chip
-          label="FREE + Shipping + Trial"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Max cart value: $494.00"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Your potential earnings: $197.60"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-      </ThemeProvider>
-
-      <Card className={classes.card}>
-        <CardActionArea>
-          <CardContent className={classes.cardContent}>
-            <Link
-              href={"https://dotcomsecretslabs.com/free-book"+affiliatestring}
-              target="_blank"
-            >
-              <img
-                className={classes.imageCard}
-                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/XNVx-clickfunnels-funnelhack-108splittests.jpg"
-                alt=""
-              />
-            </Link>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button
-            variant="contained"
-            color="primary"
-            href={"https://dotcomsecretslabs.com/free-book"+affiliatestring}
-            target="_blank"
-          >
-            Funnel Hack DCS 108 Split Tests
-          </Button>
-        </CardActions>
-      </Card>
+{/*
+      // <ThemeProvider theme={theme2}>
+      //   <Typography className={classes.p2b3} variant="h5" component="p">
+      //     <strong>
+      //       <u>DCS 108 Split Tests</u> — Free Book! 108 Proven Split Test
+      //       Winners! "Simple Tweaks You Can Make To Your Website, So You Can
+      //       Make More Money Now!"
+      //     </strong>
+      //   </Typography>
+      //
+      //   <Chip
+      //     label="FREE + Shipping + Trial"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Max cart value: $494.00"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential earnings: $197.60"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      // </ThemeProvider>
+      //
+      // <Card className={classes.card}>
+      //   <CardActionArea>
+      //     <CardContent className={classes.cardContent}>
+      //       <Link
+      //         href={"https://dotcomsecretslabs.com/free-book"+affiliatestring}
+      //         target="_blank"
+      //       >
+      //         <img
+      //           className={classes.imageCard}
+      //           src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/XNVx-clickfunnels-funnelhack-108splittests.jpg"
+      //           alt=""
+      //         />
+      //       </Link>
+      //     </CardContent>
+      //   </CardActionArea>
+      //   <CardActions>
+      //     <Button
+      //       variant="contained"
+      //       color="primary"
+      //       href={"https://dotcomsecretslabs.com/free-book"+affiliatestring}
+      //       target="_blank"
+      //     >
+      //       Funnel Hack DCS 108 Split Tests
+      //     </Button>
+      //   </CardActions>
+      // </Card>
+*/}
 
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b3} variant="h5" component="p">
@@ -1155,179 +1160,185 @@ function Step4() {
         </CardActions>
       </Card>
 
-      <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b3} variant="h5" component="p">
-          <strong>
-            <u>Funnel Fridays</u> — "Can We Build Your Next Funnel For You...
-            FOR FREE!?!". Each Friday We Pick ONE Lucky Winner, And In Just 30
-            Minutes Try To <u>Write Your Copy, Build Your Funnel</u>, And Help
-            You <u>Get It Launched</u>...
-          </strong>
-        </Typography>
+{/*
+      // <ThemeProvider theme={theme2}>
+      //   <Typography className={classes.p2b3} variant="h5" component="p">
+      //     <strong>
+      //       <u>Funnel Fridays</u> — "Can We Build Your Next Funnel For You...
+      //       FOR FREE!?!". Each Friday We Pick ONE Lucky Winner, And In Just 30
+      //       Minutes Try To <u>Write Your Copy, Build Your Funnel</u>, And Help
+      //       You <u>Get It Launched</u>...
+      //     </strong>
+      //   </Typography>
+      //
+      //   <Chip
+      //     label="FREE"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Sticky Cookie your leads"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      // </ThemeProvider>
+      //
+      // <Card className={classes.card}>
+      //   <CardActionArea>
+      //     <CardContent className={classes.cardContent}>
+      //       <Link
+      //         href={"https://funnelfridays.com/subscribe"+affiliatestring}
+      //         target="_blank"
+      //       >
+      //         <img
+      //           className={classes.imageCard}
+      //           src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/no7M-clickfunnels-funnelhack-funnelfridays.jpg"
+      //           alt=""
+      //         />
+      //       </Link>
+      //     </CardContent>
+      //   </CardActionArea>
+      //   <CardActions>
+      //     <Button
+      //       variant="contained"
+      //       color="primary"
+      //       href={"https://funnelfridays.com/subscribe"+affiliatestring}
+      //       target="_blank"
+      //     >
+      //       Funnel Hack Funnel Fridays
+      //     </Button>
+      //   </CardActions>
+      // </Card>
+*/}
 
-        <Chip
-          label="FREE"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
+{/*
+      // <ThemeProvider theme={theme2}>
+      //   <Typography className={classes.p2b3} variant="h5" component="p">
+      //     <strong>
+      //       <u>Funnel Graffiti</u> — Helping Funnel Hackers Responsibly Build
+      //       Funnels... Get Yours Today.
+      //     </strong>
+      //   </Typography>
+      //
+      //   <Chip
+      //     label="FREE + Shipping"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Max cart value: $364.00"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential earnings: $145.60"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential recurring: $26.80/month"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      // </ThemeProvider>
+      //
+      // <Card className={classes.card}>
+      //   <CardActionArea>
+      //     <CardContent className={classes.cardContent}>
+      //       <Link
+      //         href={"https://funnelgraffiti.com/getsome"+affiliatestring}
+      //         target="_blank"
+      //       >
+      //         <img
+      //           className={classes.imageCard}
+      //           src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/jwwT-clickfunnels-funnelhack-funnelgraffiti.jpg"
+      //           alt=""
+      //         />
+      //       </Link>
+      //     </CardContent>
+      //   </CardActionArea>
+      //   <CardActions>
+      //     <Button
+      //       variant="contained"
+      //       color="primary"
+      //       href={"https://funnelgraffiti.com/getsome"+affiliatestring}
+      //       target="_blank"
+      //     >
+      //       Funnel Hack Funnel Graffiti
+      //     </Button>
+      //   </CardActions>
+      // </Card>
+*/}
 
-        <Chip
-          label="Sticky Cookie your leads"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-      </ThemeProvider>
-
-      <Card className={classes.card}>
-        <CardActionArea>
-          <CardContent className={classes.cardContent}>
-            <Link
-              href={"https://funnelfridays.com/subscribe"+affiliatestring}
-              target="_blank"
-            >
-              <img
-                className={classes.imageCard}
-                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/no7M-clickfunnels-funnelhack-funnelfridays.jpg"
-                alt=""
-              />
-            </Link>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button
-            variant="contained"
-            color="primary"
-            href={"https://funnelfridays.com/subscribe"+affiliatestring}
-            target="_blank"
-          >
-            Funnel Hack Funnel Fridays
-          </Button>
-        </CardActions>
-      </Card>
-
-      <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b3} variant="h5" component="p">
-          <strong>
-            <u>Funnel Graffiti</u> — Helping Funnel Hackers Responsibly Build
-            Funnels... Get Yours Today.
-          </strong>
-        </Typography>
-
-        <Chip
-          label="FREE + Shipping"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Max cart value: $364.00"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Your potential earnings: $145.60"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Your potential recurring: $26.80/month"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-      </ThemeProvider>
-
-      <Card className={classes.card}>
-        <CardActionArea>
-          <CardContent className={classes.cardContent}>
-            <Link
-              href={"https://funnelgraffiti.com/getsome"+affiliatestring}
-              target="_blank"
-            >
-              <img
-                className={classes.imageCard}
-                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/jwwT-clickfunnels-funnelhack-funnelgraffiti.jpg"
-                alt=""
-              />
-            </Link>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button
-            variant="contained"
-            color="primary"
-            href={"https://funnelgraffiti.com/getsome"+affiliatestring}
-            target="_blank"
-          >
-            Funnel Hack Funnel Graffiti
-          </Button>
-        </CardActions>
-      </Card>
-
-      <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b3} variant="h5" component="p">
-          <strong>
-            <u>Funnel Hackers Cookbook</u> — This Book Is Like 10 Years Of
-            Funnel-Building Knowledge, All Neatly Compiled Into
-            Easy-To-Understand Recipes.
-          </strong>
-        </Typography>
-
-        <Chip
-          label="FREE + Shipping"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Max cart value: $2,332.00"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Your potential earnings: $933.40"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-      </ThemeProvider>
-
-      <Card className={classes.card}>
-        <CardActionArea>
-          <CardContent className={classes.cardContent}>
-            <Link
-              href={"https://funnelhackerscookbook.com/fh-cookbook"+affiliatestring}
-              target="_blank"
-            >
-              <img
-                className={classes.imageCard}
-                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/PrEy-clickfunnels-funnelhack-funnelhackerscookbook.jpg"
-                alt=""
-              />
-            </Link>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button
-            variant="contained"
-            color="primary"
-            href={"https://funnelhackerscookbook.com/fh-cookbook"+affiliatestring}
-            target="_blank"
-          >
-            Funnel Hack Funnel Hackers Cookbook
-          </Button>
-        </CardActions>
-      </Card>
+{/*
+      // <ThemeProvider theme={theme2}>
+      //   <Typography className={classes.p2b3} variant="h5" component="p">
+      //     <strong>
+      //       <u>Funnel Hackers Cookbook</u> — This Book Is Like 10 Years Of
+      //       Funnel-Building Knowledge, All Neatly Compiled Into
+      //       Easy-To-Understand Recipes.
+      //     </strong>
+      //   </Typography>
+      //
+      //   <Chip
+      //     label="FREE + Shipping"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Max cart value: $2,332.00"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential earnings: $933.40"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      // </ThemeProvider>
+      //
+      // <Card className={classes.card}>
+      //   <CardActionArea>
+      //     <CardContent className={classes.cardContent}>
+      //       <Link
+      //         href={"https://funnelhackerscookbook.com/fh-cookbook"+affiliatestring}
+      //         target="_blank"
+      //       >
+      //         <img
+      //           className={classes.imageCard}
+      //           src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/PrEy-clickfunnels-funnelhack-funnelhackerscookbook.jpg"
+      //           alt=""
+      //         />
+      //       </Link>
+      //     </CardContent>
+      //   </CardActionArea>
+      //   <CardActions>
+      //     <Button
+      //       variant="contained"
+      //       color="primary"
+      //       href={"https://funnelhackerscookbook.com/fh-cookbook"+affiliatestring}
+      //       target="_blank"
+      //     >
+      //       Funnel Hack Funnel Hackers Cookbook
+      //     </Button>
+      //   </CardActions>
+      // </Card>
+*/}
 
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b3} variant="h5" component="p">
@@ -1382,184 +1393,192 @@ function Step4() {
         </CardActions>
       </Card>
 
-      <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b3} variant="h5" component="p">
-          <strong>
-            <u>Funnel University</u> — Weird Marketing Experiments That Will
-            Increase Your Traffic, Conversions &amp; Sales Online...
-          </strong>
-        </Typography>
+{/*
+      // <ThemeProvider theme={theme2}>
+      //   <Typography className={classes.p2b3} variant="h5" component="p">
+      //     <strong>
+      //       <u>Funnel University</u> — Weird Marketing Experiments That Will
+      //       Increase Your Traffic, Conversions &amp; Sales Online...
+      //     </strong>
+      //   </Typography>
+      //
+      //   <Chip
+      //     label="14 Day FREE Trial"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Max cart value: $894.00"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential earnings: $356.40"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential recurring: $26.80/month"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      // </ThemeProvider>
+*/}
 
-        <Chip
-          label="14 Day FREE Trial"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
+{/*
+      // <Card className={classes.card}>
+      //   <CardActionArea>
+      //     <CardContent className={classes.cardContent}>
+      //       <Link
+      //         href={"https://funnelu.com/freegift"+affiliatestring}
+      //         target="_blank"
+      //       >
+      //         <img
+      //           className={classes.imageCard}
+      //           src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/73dh-clickfunnels-funnelhack-funneluniversity.jpg"
+      //           alt=""
+      //         />
+      //       </Link>
+      //     </CardContent>
+      //   </CardActionArea>
+      //   <CardActions>
+      //     <Button
+      //       variant="contained"
+      //       color="primary"
+      //       href={"https://funnelu.com/freegift"+affiliatestring}
+      //       target="_blank"
+      //     >
+      //       Funnel Hack Funnel University
+      //     </Button>
+      //   </CardActions>
+      // </Card>
+*/}
 
-        <Chip
-          label="Max cart value: $894.00"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
+{/*
+      // <ThemeProvider theme={theme2}>
+      //   <Typography className={classes.p2b3} variant="h5" component="p">
+      //     <strong>
+      //       <u>Funnelhacker TV</u> — Subscribe To The Funnel Hacker TV YouTube
+      //       Channel And I'll GIVE YOU... Instant Access To The "GeniusX Bootleg"
+      //       Video That Was Never Authorized To Be Shown Online... (For FREE!)
+      //     </strong>
+      //   </Typography>
+      //
+      //   <Chip
+      //     label="FREE"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Sticky Cookie your leads"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      // </ThemeProvider>
+      //
+      // <Card className={classes.card}>
+      //   <CardActionArea>
+      //     <CardContent className={classes.cardContent}>
+      //       <Link
+      //         href={"https://funnelhacker.tv/subscribe"+affiliatestring}
+      //         target="_blank"
+      //       >
+      //         <img
+      //           className={classes.imageCard}
+      //           src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/1rHE-clickfunnels-funnelhack-funnelhackertv.jpg"
+      //           alt=""
+      //         />
+      //       </Link>
+      //     </CardContent>
+      //   </CardActionArea>
+      //   <CardActions>
+      //     <Button
+      //       variant="contained"
+      //       color="primary"
+      //       href={"https://funnelhacker.tv/subscribe"+affiliatestring}
+      //       target="_blank"
+      //     >
+      //       Funnel Hack Funnelhacker TV
+      //     </Button>
+      //   </CardActions>
+      // </Card>
+*/}
 
-        <Chip
-          label="Your potential earnings: $356.40"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Your potential recurring: $26.80/month"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-      </ThemeProvider>
-
-      <Card className={classes.card}>
-        <CardActionArea>
-          <CardContent className={classes.cardContent}>
-            <Link
-              href={"https://funnelu.com/freegift"+affiliatestring}
-              target="_blank"
-            >
-              <img
-                className={classes.imageCard}
-                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/73dh-clickfunnels-funnelhack-funneluniversity.jpg"
-                alt=""
-              />
-            </Link>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button
-            variant="contained"
-            color="primary"
-            href={"https://funnelu.com/freegift"+affiliatestring}
-            target="_blank"
-          >
-            Funnel Hack Funnel University
-          </Button>
-        </CardActions>
-      </Card>
-
-      <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b3} variant="h5" component="p">
-          <strong>
-            <u>Funnelhacker TV</u> — Subscribe To The Funnel Hacker TV YouTube
-            Channel And I'll GIVE YOU... Instant Access To The "GeniusX Bootleg"
-            Video That Was Never Authorized To Be Shown Online... (For FREE!)
-          </strong>
-        </Typography>
-
-        <Chip
-          label="FREE"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Sticky Cookie your leads"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-      </ThemeProvider>
-
-      <Card className={classes.card}>
-        <CardActionArea>
-          <CardContent className={classes.cardContent}>
-            <Link
-              href={"https://funnelhacker.tv/subscribe"+affiliatestring}
-              target="_blank"
-            >
-              <img
-                className={classes.imageCard}
-                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/1rHE-clickfunnels-funnelhack-funnelhackertv.jpg"
-                alt=""
-              />
-            </Link>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button
-            variant="contained"
-            color="primary"
-            href={"https://funnelhacker.tv/subscribe"+affiliatestring}
-            target="_blank"
-          >
-            Funnel Hack Funnelhacker TV
-          </Button>
-        </CardActions>
-      </Card>
-
-      <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b3} variant="h5" component="p">
-          <strong>
-            <u>Marketing In Your Car</u> — Get The First 257 Episodes Of
-            Marketing In Your Car For FREE On This Pre-Loaded MP3 Player...
-          </strong>
-        </Typography>
-
-        <Chip
-          label="FREE + Shipping"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Max cart value: $364.00"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Your potential earnings: $145.60"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Your potential recurring: $26.80/month"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-      </ThemeProvider>
-
-      <Card className={classes.card}>
-        <CardActionArea>
-          <CardContent className={classes.cardContent}>
-            <Link
-              href={"https://marketinginyourcar.com/free-mp3"+affiliatestring}
-              target="_blank"
-            >
-              <img
-                className={classes.imageCard}
-                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/XWnI-clickfunnels-funnelhack-marketinginyourcar.jpg"
-                alt=""
-              />
-            </Link>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button
-            variant="contained"
-            color="primary"
-            href={"https://marketinginyourcar.com/free-mp3"+affiliatestring}
-            target="_blank"
-          >
-            Funnel Hack Marketing In Your Car
-          </Button>
-        </CardActions>
-      </Card>
+{/*
+      // <ThemeProvider theme={theme2}>
+      //   <Typography className={classes.p2b3} variant="h5" component="p">
+      //     <strong>
+      //       <u>Marketing In Your Car</u> — Get The First 257 Episodes Of
+      //       Marketing In Your Car For FREE On This Pre-Loaded MP3 Player...
+      //     </strong>
+      //   </Typography>
+      //
+      //   <Chip
+      //     label="FREE + Shipping"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Max cart value: $364.00"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential earnings: $145.60"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential recurring: $26.80/month"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      // </ThemeProvider>
+      //
+      // <Card className={classes.card}>
+      //   <CardActionArea>
+      //     <CardContent className={classes.cardContent}>
+      //       <Link
+      //         href={"https://marketinginyourcar.com/free-mp3"+affiliatestring}
+      //         target="_blank"
+      //       >
+      //         <img
+      //           className={classes.imageCard}
+      //           src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/XWnI-clickfunnels-funnelhack-marketinginyourcar.jpg"
+      //           alt=""
+      //         />
+      //       </Link>
+      //     </CardContent>
+      //   </CardActionArea>
+      //   <CardActions>
+      //     <Button
+      //       variant="contained"
+      //       color="primary"
+      //       href={"https://marketinginyourcar.com/free-mp3"+affiliatestring}
+      //       target="_blank"
+      //     >
+      //       Funnel Hack Marketing In Your Car
+      //     </Button>
+      //   </CardActions>
+      // </Card>
+*/}
 
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b3} variant="h5" component="p">
@@ -1671,120 +1690,124 @@ function Step4() {
         </CardActions>
       </Card>
 
-      <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b3} variant="h5" component="p">
-          <strong>
-            <u>Perfect Webinar</u> — The Perfect Webinar This Webinar Script
-            Made Me A Millionaire... And I Want To Give It To You... For FREE!
-          </strong>
-        </Typography>
+{/*
+      // <ThemeProvider theme={theme2}>
+      //   <Typography className={classes.p2b3} variant="h5" component="p">
+      //     <strong>
+      //       <u>Perfect Webinar</u> — The Perfect Webinar This Webinar Script
+      //       Made Me A Millionaire... And I Want To Give It To You... For FREE!
+      //     </strong>
+      //   </Typography>
+      //
+      //   <Chip
+      //     label="FREE + Shipping"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Max cart value: $344.00"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential earnings: $137.60"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      // </ThemeProvider>
+      //
+      // <Card className={classes.card}>
+      //   <CardActionArea>
+      //     <CardContent className={classes.cardContent}>
+      //       <Link
+      //         href={"https://perfectwebinarsecrets.com/get-it-free"+affiliatestring}
+      //         target="_blank"
+      //       >
+      //         <img
+      //           className={classes.imageCard}
+      //           src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/KLaD-clickfunnels-funnelhack-perfectwebinar.jpg"
+      //           alt=""
+      //         />
+      //       </Link>
+      //     </CardContent>
+      //   </CardActionArea>
+      //   <CardActions>
+      //     <Button
+      //       variant="contained"
+      //       color="primary"
+      //       href={"https://perfectwebinarsecrets.com/get-it-free"+affiliatestring}
+      //       target="_blank"
+      //     >
+      //       Funnel Hack Perfect Webinar
+      //     </Button>
+      //   </CardActions>
+      // </Card>
+*/}
 
-        <Chip
-          label="FREE + Shipping"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Max cart value: $344.00"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Your potential earnings: $137.60"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-      </ThemeProvider>
-
-      <Card className={classes.card}>
-        <CardActionArea>
-          <CardContent className={classes.cardContent}>
-            <Link
-              href={"https://perfectwebinarsecrets.com/get-it-free"+affiliatestring}
-              target="_blank"
-            >
-              <img
-                className={classes.imageCard}
-                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/KLaD-clickfunnels-funnelhack-perfectwebinar.jpg"
-                alt=""
-              />
-            </Link>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button
-            variant="contained"
-            color="primary"
-            href={"https://perfectwebinarsecrets.com/get-it-free"+affiliatestring}
-            target="_blank"
-          >
-            Funnel Hack Perfect Webinar
-          </Button>
-        </CardActions>
-      </Card>
-
-      <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b3} variant="h5" component="p">
-          <strong>
-            <u>Software Secrets</u> — Free Book! Create And Launch Your Own
-            Software Or App In The Next 90 Days... Even If You Have No Idea What
-            To Create, How To Code, Or Where To Start!
-          </strong>
-        </Typography>
-
-        <Chip
-          label="FREE + Shipping"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Max cart value: $2041.00"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-
-        <Chip
-          label="Your potential earnings: $816.40"
-          className={classes.chip}
-          variant="outlined"
-          color="secondary"
-        />
-      </ThemeProvider>
-
-      <Card className={classes.card}>
-        <CardActionArea>
-          <CardContent className={classes.cardContent}>
-            <Link
-              href={"https://softwaresecrets.com/livewebclass"+affiliatestring}
-              target="_blank"
-            >
-              <img
-                className={classes.imageCard}
-                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/HiHD-clickfunnels-funnelhack-softwaresecrets.jpg"
-                alt=""
-              />
-            </Link>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button
-            variant="contained"
-            color="primary"
-            href={"https://softwaresecrets.com/livewebclass"+affiliatestring}
-            target="_blank"
-          >
-            Funnel Hack Software Secrets
-          </Button>
-        </CardActions>
-      </Card>
+{/*
+      // <ThemeProvider theme={theme2}>
+      //   <Typography className={classes.p2b3} variant="h5" component="p">
+      //     <strong>
+      //       <u>Software Secrets</u> — Free Book! Create And Launch Your Own
+      //       Software Or App In The Next 90 Days... Even If You Have No Idea What
+      //       To Create, How To Code, Or Where To Start!
+      //     </strong>
+      //   </Typography>
+      //
+      //   <Chip
+      //     label="FREE + Shipping"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Max cart value: $2041.00"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      //
+      //   <Chip
+      //     label="Your potential earnings: $816.40"
+      //     className={classes.chip}
+      //     variant="outlined"
+      //     color="secondary"
+      //   />
+      // </ThemeProvider>
+      //
+      // <Card className={classes.card}>
+      //   <CardActionArea>
+      //     <CardContent className={classes.cardContent}>
+      //       <Link
+      //         href={"https://softwaresecrets.com/livewebclass"+affiliatestring}
+      //         target="_blank"
+      //       >
+      //         <img
+      //           className={classes.imageCard}
+      //           src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/HiHD-clickfunnels-funnelhack-softwaresecrets.jpg"
+      //           alt=""
+      //         />
+      //       </Link>
+      //     </CardContent>
+      //   </CardActionArea>
+      //   <CardActions>
+      //     <Button
+      //       variant="contained"
+      //       color="primary"
+      //       href={"https://softwaresecrets.com/livewebclass"+affiliatestring}
+      //       target="_blank"
+      //     >
+      //       Funnel Hack Software Secrets
+      //     </Button>
+      //   </CardActions>
+      // </Card>
+*/}
 
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b3} variant="h5" component="p">
@@ -2341,7 +2364,7 @@ function StepUnknown() {
 
 function getSteps() {
   return [
-    "The clock is ticking!!...",
+    "The clock is ticking...",
     "SECRET 1: FREE for 14 Days",
     "SECRET 2: FREE for 12 Months",
     "SECRET 3: FREE-FOR-LIFE!",
@@ -2480,7 +2503,7 @@ function VerticalLinearStepper() {
               </ThemeProvider>
               <div
                 className="fb-like"
-                data-href="https://3rdqo.codesandbox.io/"
+                // data-href="https://clickfunnels.affiliateteams.com.au/clickfunnels-pricing/"
                 data-layout="standard"
                 data-action="like"
                 data-show-faces="true"
@@ -2500,6 +2523,7 @@ function VerticalLinearStepper() {
                     target="_blank"
                     variant="body2"
                     className={classes.fbgrouplink}
+                    href="https://www.facebook.com/groups/clickfunnelsaffiliate24hourchallenge/"
                   >
                     JOIN “ClickFunnels Affiliate 24-Hour Challenge” Facebook Group
                   </Link>
