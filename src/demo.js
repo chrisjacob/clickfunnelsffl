@@ -29,10 +29,10 @@ theme2 = responsiveFontSizes(theme2);
 //const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear();
 const tomorrow = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
 
-// cf_affiliate_id=831693&affiliate_id=831693&aff_sub=funnelfreeforlife&aff_sub2=
+// cf_affiliate_id=831693&affiliate_id=831693&aff_sub=freeforlifefunnel&aff_sub2=
 const cf_affiliate_id = window.getAllUrlParams().cf_affiliate_id || "831693";
 const affiliate_id = window.getAllUrlParams().affiliate_id || "831693";
-const aff_sub = window.getAllUrlParams().aff_sub || "funnelfreeforlife";
+const aff_sub = window.getAllUrlParams().aff_sub || "freeforlifefunnel";
 const aff_sub2 = window.getAllUrlParams().aff_sub2 || "";
 const affiliatestring = "?cf_affiliate_id="+cf_affiliate_id+"&affiliate_id="+affiliate_id+"&aff_sub="+aff_sub+"&aff_sub2="+aff_sub2;
 
