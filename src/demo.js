@@ -85,7 +85,7 @@ const useStyles = makeStyles(theme => ({
   },
   rootFacebook: {
     flexGrow: 1,
-    maxWidth: "600px",
+    maxWidth: "630px",
     margin: "0 auto 32px auto"
   },
   rootFacebook2: {
@@ -729,7 +729,7 @@ function Step3() {
                   variant="body2"
                   component="p"
                 >
-                  <strong>Challenge:</strong> Get ClickFunnels <span className={classes.nowrap}>FREE-FOR-LIFE</span>&nbsp;<span role="img" aria-label="Party Popper">🎉</span><br />
+                  <strong>Challenge:</strong> Get ClickFunnels <span className={classes.nowrap}>FREE-FOR-LIFE</span> <span className={classes.nowrap}>(&nbsp;in Under 24-Hours&nbsp;<span role="img" aria-label="Party Popper">🎉</span>)</span><br />
                   <strong>You:</strong> “Challenge Accepted!”&nbsp; <br />
                   <strong>Next:</strong> LIKE → SHARE → JOIN
                 </Typography>
@@ -2496,7 +2496,7 @@ function VerticalLinearStepper() {
                   variant="body2"
                   component="p"
                 >
-                  <strong>Challenge:</strong> Get ClickFunnels <span className={classes.nowrap}>FREE-FOR-LIFE</span>&nbsp;<span role="img" aria-label="Party Popper">🎉</span><br />
+                  <strong>Challenge:</strong> Get ClickFunnels <span className={classes.nowrap}>FREE-FOR-LIFE</span> <span className={classes.nowrap}>(&nbsp;in Under 24-Hours&nbsp;<span role="img" aria-label="Party Popper">🎉</span>)</span><br />
                   <strong>You:</strong> “Challenge Accepted!”&nbsp; <br />
                   <strong>Next:</strong> LIKE → SHARE → JOIN
                 </Typography>
