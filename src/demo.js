@@ -254,8 +254,8 @@ function Step1() {
             >
               <img
                 className={classes.imageCard}
-                // src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/F0zq-clickfunnels-14daysfree-1c.jpg"
-                src="./images/clickfunnels-14daysfree-1c.jpg"
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/F0zq-clickfunnels-14daysfree-1c.jpg"
+                // src="./images/clickfunnels-14daysfree-1c.jpg"
                 alt=""
               />
             </Link>
