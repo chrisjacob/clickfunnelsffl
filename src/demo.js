@@ -85,7 +85,7 @@ const useStyles = makeStyles(theme => ({
   },
   rootFacebook: {
     flexGrow: 1,
-    maxWidth: "630px",
+    maxWidth: "450px",
     margin: "0 auto 32px auto"
   },
   rootFacebook2: {
@@ -222,14 +222,168 @@ function Step0() {
         <Countdown date={`${tomorrow}`} />
       </Typography>
       <Typography className={classes.p2b} variant="h5" component="p">
-        <u>
-          <strong>Remember</strong>
-        </u>
-        &nbsp;ClickFunnels Gives You <strong>EVERYTHING</strong> You Need To
+        <u>ClickFunnels</u> Gives You <strong>EVERYTHING</strong> You Need To
         Market, Sell and Deliver Your Products Online!
       </Typography>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://clickfunnels.com"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/LRQx-clickfunnels-pricing-sales-funnels.jpg"
+                alt="Quickly Create Beautiful Sales Funnels That Convert Your Visitors Into Leads And Then Customers... (Without Having To Hire or Rely On A Tech Team!)"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://clickfunnels.com"+affiliatestring}
+            target="_blank"
+          >
+            Learn More
+          </Button>
+        </CardActions>
+      </Card>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Sounds awesome right?
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          If you’re like me then...
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}YES, you already <span role="img" aria-label="red heart">
+            ❤️
+          </span>{" "}<u>ClickFunnels!</u>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}YES, <strong>you <em>KNOW 100%</em> that it will <u>GROW</u> Your Business!</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}YES, you <u>WANT</u> it… you <em>NEED</em> it… you <strong>CRAVE</strong> it!…
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          …But the <strong><u>ClickFunnels Price Tag</u></strong> has been <em>Holding You Back</em>&nbsp;<span role="img" aria-label="loudly crying">
+            😭
+          </span>
+        </Typography>
+      </ThemeProvider>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://clickfunnels.com"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/7j9I-clickfunnels-pricing-plans-2019.jpg"
+                alt="ClickFunnels Pricing: $97/month, Etison Suite $297/month. No contracts, downgrade or cancel your account anytime with a single click from your dashboard."
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://clickfunnels.com"+affiliatestring}
+            target="_blank"
+          >
+            Learn More
+          </Button>
+        </CardActions>
+      </Card>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Today this changes <em>FOREVER...</em>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="face with heart eyes">
+            😍
+          </span>{" "}Today is <strong>YOUR day!</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="face with heart eyes">
+            😍
+          </span>{" "}Today you get <strong>3 ClickFunnels PRICING SECRETS!</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="face with heart eyes">
+            😍
+          </span>{" "}Today you <strong>JOIN ClickFunnels</strong> & <strong>GROW Your Business!</strong>
+        </Typography>
+      </ThemeProvider>
+
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://clickfunnels.com"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/fnSL-clickfunnels-pricing-join.jpg"
+                alt="Changing The Lives Of Entrepreneurs. Join the 92,519 entrepreneurs who are actively using ClickFunnels to easily get their products and their message out to the world! 92.5K Users. 883M Contacts. 5.23M Funnels. $3.6B Processed."
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://clickfunnels.com"+affiliatestring}
+            target="_blank"
+          >
+            Learn More
+          </Button>
+        </CardActions>
+      </Card>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+        </Typography>
+      </ThemeProvider>
+
       <Typography className={classes.p2b} variant="h5" component="p">
-        You're just <strong>ONE</strong> funnel away...
+        Ready for the secrets?
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <strong><u>Remember:</u></strong> You're just <strong>ONE</strong> funnel away...
       </Typography>
     </React.Fragment>
   );
@@ -308,7 +462,7 @@ function Step1() {
 
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b} variant="h5" component="p">
-          ... Sign-up takes <strong>less than 60 Seconds!</strong>
+          ... and the FREE Trial sign-up takes <strong>less than 60 Seconds!</strong>
         </Typography>
       </ThemeProvider>
 
@@ -341,15 +495,18 @@ function Step1() {
 
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b} variant="h5" component="p">
+          No more excuses...
+        </Typography>
+        <Typography className={classes.p2b} variant="h5" component="p">
           Don't move on until you've got your{" "}
           <strong>FREE ClickFunnels account.</strong>
         </Typography>
         <Typography className={classes.p2b} variant="h5" component="p">
-          You have <u>everything to gain</u>, and nothing to lose.
+          You have <u>everything to gain</u>, and <em>nothing to lose.</em>
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
-          Stop procrastinating. <em>Just do it!</em>
+          So <u>stop procrastinating</u>, and <em>#JustDoIt!</em>
         </Typography>
 
         <Button
@@ -706,6 +863,22 @@ function Step3() {
           </span>
           YES, LET'S DO THIS!!!
         </Typography>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+          <br />
+          But before we move on to the BONUSES...
+        </Typography>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>Do you accept the challenge?</strong>
+        </Typography>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <u>CHALLENGE:</u> Get ClickFunnels <span className={classes.nowrap}>FREE-FOR-LIFE</span> In <span className={classes.nowrap}><strong>Under 24-Hours&nbsp;<span role="img" aria-label="Party Popper">🎉</span></strong></span>
+        </Typography>
+
       </ThemeProvider>
 
       <Box className={classes.rootFacebook2}>
@@ -729,7 +902,6 @@ function Step3() {
                   variant="body2"
                   component="p"
                 >
-                  <strong>Challenge:</strong> Get ClickFunnels <span className={classes.nowrap}>FREE-FOR-LIFE</span> <span className={classes.nowrap}>(&nbsp;in Under 24-Hours&nbsp;<span role="img" aria-label="Party Popper">🎉</span>)</span><br />
                   <strong>You:</strong> “Challenge Accepted!”&nbsp; <br />
                   <strong>Next:</strong> LIKE → SHARE → JOIN
                 </Typography>
@@ -758,7 +930,7 @@ function Step3() {
                     className={classes.fbgrouplink}
                     href="https://www.facebook.com/groups/clickfunnelsaffiliate24hourchallenge/"
                   >
-                    JOIN “ClickFunnels Affiliate 24-Hour Challenge” Facebook Group
+                    JOIN The 24-Hour Challenge Facebook Group
                   </Link>
                 </Typography>
               </ThemeProvider>
@@ -1878,9 +2050,11 @@ function Step4() {
           <span role="img" aria-label="explosion">
             💥
           </span>{" "}
-          WOAH! <u>YOU DID IT!!!</u> <br />
+          Is your <u>MIND BLOWN!?!</u> <br />
           <br />
-          You are <em>truely ready</em> for BONUS 2 (...this one{" "}
+          <u><strong>BIG TIP:</strong></u> The <strong>Traffic Secrets</strong> one-time-offer in the <strong>DotComSecrets Book</strong> funnel is <em>ROCKET FUEL</em> for the next Bonus...
+          <br /><br />
+          When you're ready, move on to BONUS 2 (...this one{" "}
           <strong>CHANGES EVERYTHING</strong>)!
         </Typography>
       </ThemeProvider>
@@ -2122,13 +2296,15 @@ function Step5() {
             href={"https://whatsyourdreamcar.com/signup-now"+affiliatestring}
             target="_blank"
           >
-            First... Get Your ClickFunnels Affiliate ID
+            Get Your ClickFunnels Affiliate ID
           </Button>
         </CardActions>
       </Card>
 
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b} variant="h5" component="p">
+          First, get your ClickFunnels Affiliate ID...
+          <br /><br />
           Then send me your details and I'll automatically send you{" "}
           <u>YOUR SPECIAL LINK</u> so you can{" "}<em>INSTANTLY</em>{" "}
           use your own copy of the <u><strong>“ClickFunnels FREE-FOR-LIFE Funnel”</strong></u> <strong><em>RIGHT AWAY.</em></strong>
@@ -2472,7 +2648,7 @@ function VerticalLinearStepper() {
           3 Secrets To Get ClickFunnels For <strong>FREE!</strong>&nbsp;<span role="img" aria-label="fire">🔥</span>
         </Typography>
         <Typography className={classes.subheadline} variant="h5" component="h2">
-          <span role="img" aria-label="clock">⏰</span>&nbsp;BONUS: ClickFunnels Affiliate <span className={classes.nowrap}>24-Hour Challenge...</span>
+          <u>+ CHALLENGE:</u> Get ClickFunnels <span className={classes.nowrap}>FREE-FOR-LIFE</span> In <span className={classes.nowrap}><strong>Under 24-Hours&nbsp;<span role="img" aria-label="Party Popper">🎉</span></strong></span>
         </Typography>
       </ThemeProvider>
 
@@ -2496,7 +2672,6 @@ function VerticalLinearStepper() {
                   variant="body2"
                   component="p"
                 >
-                  <strong>Challenge:</strong> Get ClickFunnels <span className={classes.nowrap}>FREE-FOR-LIFE</span> <span className={classes.nowrap}>(&nbsp;in Under 24-Hours&nbsp;<span role="img" aria-label="Party Popper">🎉</span>)</span><br />
                   <strong>You:</strong> “Challenge Accepted!”&nbsp; <br />
                   <strong>Next:</strong> LIKE → SHARE → JOIN
                 </Typography>
@@ -2525,7 +2700,7 @@ function VerticalLinearStepper() {
                     className={classes.fbgrouplink}
                     href="https://www.facebook.com/groups/clickfunnelsaffiliate24hourchallenge/"
                   >
-                    JOIN “ClickFunnels Affiliate 24-Hour Challenge” Facebook Group
+                    JOIN The 24-Hour Challenge Facebook Group
                   </Link>
                 </Typography>
               </ThemeProvider>
