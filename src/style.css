@@ -62,6 +62,10 @@ body {
   margin: 0;
 }
 
+.red {
+  color: #FF0000;
+}
+
 /* @media (min-width: 0px) and (orientation: landscape) {
   body {
     padding-top: 48px;

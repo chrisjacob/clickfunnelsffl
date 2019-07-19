@@ -204,6 +204,12 @@ const useStyles = makeStyles(theme => ({
   imageCard: {
     maxWidth: "100%"
   },
+  imageCard75: {
+    maxWidth: "75%",
+    margin: "0 auto",
+    display: "block",
+    borderRadius: "10px"
+  },
   hidden: {
     display: "none"
   },
@@ -212,6 +218,689 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(1)
   }
 }));
+
+
+function Step7() {
+  const classes = useStyles();
+
+  return (
+    <React.Fragment>
+      <Typography className={classes.p2b} variant="h5" component="p">
+        When You <em>Buy ClickFunnels</em> OR You <em>Upgrade To Funnel Builder Secrets</em> Under My Affiliate Link <strong>(By Clicking The Links Below)</strong>...
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        Then I'm Going To GIVE To You The <em>BIGGEST</em>, <strong>MOST EPIC</strong>, <u>MOST VALUABLE</u> ClickFunnels <strong><u>BONUES STACK</u></strong> On This Planet!!!
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        ( It's My Way Of Saying <em>THANK YOU!</em>{" "}<span role="img" aria-label="face with heart eyes">
+          😍
+        </span>{" "})
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}<strong>Buy ClickFunnels ($97/mth or $297/mth) And You Get...</strong>
+      </Typography>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://signup.clickfunnels.com/free-trial"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/LhU3-clickfunnels-marketing-funnels-made-easy-offer-1.jpg"
+                alt="Clickfunnels - Quickly Build Smart Sales Funnels That Convert! Actionetics - Create Smart Autoresponders Action Funnels! Backpack - Run Smart Affiliate Programs Inside Your Funnels!"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://signup.clickfunnels.com/free-trial"+affiliatestring}
+            target="_blank"
+          >
+            Get ClickFunnels
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://signup.clickfunnels.com/free-trial"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/ayg_-clickfunnels-offer-value-2.jpg"
+                alt="EVERYTHING you get with your free trial today!"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://signup.clickfunnels.com/free-trial"+affiliatestring}
+            target="_blank"
+          >
+            Get ClickFunnels
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://signup.clickfunnels.com/free-trial"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/ZzhN-clickfunnels-signup-video-3.jpg"
+                alt="ClickFunnels - Signup Video"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://signup.clickfunnels.com/free-trial"+affiliatestring}
+            target="_blank"
+          >
+            Get ClickFunnels
+          </Button>
+        </CardActions>
+      </Card>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+        <strong>... OR ...</strong>
+        </Typography>
+
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}<strong>Go-All-In And Upgrade To Funnel Builder Secrets (6-12 Months ClickFunnels For FREE) And You Get...</strong>
+      </Typography>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://app.clickfunnels.com/funnel_builder_secrets"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/9e8f-funnel-builder-secrets-everything-you-get-1.jpg"
+                alt="Funnel Builder Secrets - Everything You Get!"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://app.clickfunnels.com/funnel_builder_secrets"+affiliatestring}
+            target="_blank"
+          >
+            Get Funnel Builder Secrets
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://app.clickfunnels.com/funnel_builder_secrets"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/S1Ql-funnel-builder-secrets-pricing-2.jpg"
+                alt="Funnel Builder Secrets - When you Invest Today You Get..."
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://app.clickfunnels.com/funnel_builder_secrets"+affiliatestring}
+            target="_blank"
+          >
+            Get Funnel Builder Secrets
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://app.clickfunnels.com/funnel_builder_secrets"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/qhXp-funnel-builder-secrets-video-3.jpg"
+                alt="Funnel Builder Secrets - Signup Video"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://app.clickfunnels.com/funnel_builder_secrets"+affiliatestring}
+            target="_blank"
+          >
+            Get Funnel Builder Secrets
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      <strong>... BUY NOW, AND I'LL GIVE YOU ALL THIS ...</strong>
+      </Typography>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>FREE Shipping for The FunnelHacker Blackbox <span class="red">(Value $24.95)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/xE0t-clickfunnels-funnelhacker-blackbox.jpg"
+          alt="FREE Shipping for The FunnelHacker Blackbox"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          THE BEST DEAL! Get BOTH the Expert Secrets book PLUS DotcomSecrets book AND 4 Other Unadvertised Booklets!
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          These two books are a MUST READ for every ClickFunnels user - covering the ART &amp; SCIENCE of Sales Funnels.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong><em>How do you get it?</em></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Go to either <a href={"https://dotcomsecrets.com/go"+affiliatestring} target="_blank">DotCom Secrets</a> or <a href={"https://expertsecrets.com/"+affiliatestring} target="_blank">Expert Secrets</a>, fill in your details and on STEP 2 choose to UPGRADE to the "BEST DEAL! Get BOTH...".
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Send me your receipt and I will reimburse you for the shipping costs via Paypal (up to $24.95 for international shipping).
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong><em>What's inside the FunnelHacker Blackbox?</em></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}Expert Secrets book (Value $19.95)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}DotCom Secrets book (Value $19.95)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}ClickFunnels Secrets booklet (Value $14.95)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}Actionetics Secrets booklet (Value $14.95)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}Secrets Sketches booklet (Value $14.95)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}Fill Your Funnel Secrets booklet (Value $14.95)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}PLUS, Other Awesome Funnel Hacker Stuff...
+        </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>Affiliate Teams Inner Circle <span class="red">(Value $49/mth | $588/yr)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/eM2j-affiliateteams-inner-circle.jpg"
+          alt="Affiliate Teams Inner Circle"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Within the Affiliate Teams community there is a <u>Private Inner Circle.</u>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Behind closed doors the Inner Circe members go deep into discussing <strong>strategy, tactics &amp; business.</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          It's a <em>small and personal group</em>, of highly motivated people driven to GROW their businesses with ClickFunnels.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <u>To gain access you have 3 options:</u>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>1. Buy your way in...</strong> at $49/mth.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>2. Earn your way in...</strong> all Super Affiliates (100+ Sales) get a free invite.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>3. Sneak your way in...</strong> via this ClickFunnels Stack BONUS!
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          You'll get FREE Access to the Affiliate Teams Inner Circle, so long as you <strong>remain an active ClickFunnels customers</strong> under a "ClickFunnels FREE-FOR-LIFE Funnel" affiliate.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          With regular accountability calls and masterminds this exclusive group will give you <em>the edge</em> you've been searching for!
+        </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>Tier5 Mega Software Bundle <span class="red">(Value $9,384/yr)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/aw8E-tier5-mega-software-bundle.jpg"
+          alt="Tier5 Mega Software Bundle"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          This bonus is a GAME CHANGER, and will <strong>single-handedly pay for your ClickFunnels payment.</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          As part of the Tier5 Mega Software Bundle you’ll be getting access to the following software products:
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<a href="https://www.robocontact.io/" target="_blank"><strong>RoboContact</strong></a> - Lets you target any location and keyword and the software will build you a list of leads and even do the cold outreach for you  <strong><span class="red">(Value $297/mo)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<a href="https://www.domainleads.io/" target="_blank"><strong>DomainLeads</strong></a> - This software gets you fresh leads daily from anyone that's registered a domain name <strong><span class="red">(Value $197/mo)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<a href="https://about.invoicingyou.com/" target="_blank"><strong>InvoicingYou</strong></a> - Simple yet powerful invoicing software that gives your clients an easy way to pay you online for your products or services <strong><span class="red">(Value $97/mo)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<a href="https://about.amagiczap.com/" target="_blank"><strong>Magic Zap</strong></a> - Create custom personalized sales pages and fire off automations when people visit your site  <strong><span class="red">(Value $97/mo)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<a href="https://www.usestickyreviews.com/" target="_blank"><strong>Sticky Reviews</strong></a> - A social proof software that displays real reviews from your customers. Increases conversions by over 15% <strong><span class="red">(Value $47/mo)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<a href="https://www.uselinkwizard.com/" target="_blank"><strong>Link Wizard</strong></a> - A link tracking software that lets you see where your traffic is coming from so you can understand what is working for you  <strong><span class="red">(Value $47/mo)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          You’re getting the <u>full versions</u> of each of these software products, which if you purchased separately would cost you <strong><span class="red">$9,384 per year.</span></strong>
+        </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>CF Share Funnel Library White Label Rights <span class="red">(Value $497)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/XYzD-cf-share-funnel-library2.jpg"
+          alt="CF Share Funnel Library White Label Rights"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          The best way to succeed with ClickFunnels <strong><em>FAST</em></strong> is to copy proven share funnels into your account.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          I’ve put together a list of <strong>46 different share funnels</strong>, including several <u>million dollar share funnels</u>, as part of my CF Funnel Library.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Study how these mega successful funnels work, and copy the best-of-the-best.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Speaking of the best... one of the best ways to <u>make a lot of money</u> as a ClickFunnels affiliate is to use share funnels as a <em>lead magnet or bonus</em>.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          With the <strong>white-label rights</strong>, you’ll be able to add your own affiliate share funnel links into this document, and use it as your own lead magnet or ClickFunnels bonus.
+        </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>Lifetime “ClickFunnels Stack” Updates <span class="red">(Value PRICELESS)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/z6EL-updates-for-life-clickfunnels-stack.jpg"
+          alt="Lifetime ClickFunnels Stack Updates"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          This stack is just getting started!
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          There are <strong>BIG PLANS</strong> to continue to <em>GROW THIS STACK</em> with products <u>PURCHASED &amp; MADE</u> just for YOU.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          ...and you will get it ALL FOR FREE — <strong>FOREVERRRRR!!!</strong>
+        </Typography>
+
+      </ThemeProvider>
+
+{/*
+https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/FUF_-updates-for-life-affiliate-stack.jpg
+https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/NPeB-updates-for-life-traffic-stack.jpg
+*/}
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>The Ultimate ClickFunnels BONUS STACK</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}FREE Shipping for The FunnelHacker Blackbox <span class="red"><strong>(Value $24.95)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}Affiliate Teams Inner Circle <span class="red"><strong>(Value $49/mth)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}Tier5 Mega Software Bundle <span class="red"><strong>(Value $9,384/yr)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}CF Share Funnel Library White Label Rights <span class="red"><strong>(Value $497)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}Lifetime “ClickFunnels Stack” Updates <span class="red"><strong>(Value PRICELESS)</strong></span>
+        </Typography>
+        <Typography className={classes.p2b} variant="h3" component="p">
+          <strong><u>TOTAL VALUE:</u></strong> <span class="red"><strong>$9,972/yr + $521.95</strong></span>
+        </Typography>
+      </ThemeProvider>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          When you <em>buy ClickFunnels</em> OR you <em>upgrade to Funnel Builder Secrets</em> under my affiliate link <strong>(by clicking the links below)</strong>...
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Your email address will show up in my affiliate dashboard and I will email to you The Ultimate ClickFunnels BONUS STACK!
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+        ... It's Your Choice:
+        </Typography>
+      </ThemeProvider>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <strong>GET CLICKFUNNELS</strong>
+        </Typography>
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://signup.clickfunnels.com/free-trial"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/B_oy-clickfunnels-ecover.jpg"
+                alt="Get ClickFunnels"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://signup.clickfunnels.com/free-trial"+affiliatestring}
+            target="_blank"
+          >
+            Get ClickFunnels
+          </Button>
+        </CardActions>
+      </Card>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <br /><br />
+        <strong>... OR ...</strong>
+          <br /><br />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <strong>GET FUNNEL BUILDER SECRETS</strong>
+        </Typography>
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://app.clickfunnels.com/funnel_builder_secrets"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/Qd3_-funnel-builder-secrets-ecover.jpg"
+                alt="Get Funnel Builder Secrets"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://app.clickfunnels.com/funnel_builder_secrets"+affiliatestring}
+            target="_blank"
+          >
+            Get Funnel Builder Secrets
+          </Button>
+        </CardActions>
+      </Card>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+        </Typography>
+      </ThemeProvider>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        Ready for the next stack?
+      </Typography>
+
+    </React.Fragment>
+  );
+}
+
+function Step8() {
+  const classes = useStyles();
+
+  return (
+    <React.Fragment>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        Comming Soon...
+      </Typography>
+
+    </React.Fragment>
+  );
+}
+
+function Step9() {
+  const classes = useStyles();
+
+  return (
+    <React.Fragment>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        Comming Soon...
+      </Typography>
+
+    </React.Fragment>
+  );
+}
 
 function Step0() {
   const classes = useStyles();
@@ -2515,19 +3204,11 @@ function Step6() {
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
-        <u>Now Get To Work!</u>
+          You <em>almost</em> have EVERYTHING you need to <strong>Get ClickFunnels <em>FREE-FOR-LIFE</em> in <u>Under 24-Hours!</u></strong>
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
-          You have everything you need to change your life <em>RIGHT NOW.</em>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          You have EVERYTHING you need to <strong>Get ClickFunnels <em>FREE-FOR-LIFE</em> in <u>Under 24-Hours!</u></strong>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          I <strong>BELIEVE</strong> IN <u>YOU!</u>
+          <u>...Before You Get To Work, You Want To Check Out These 3 Special Offers...</u>
         </Typography>
       </ThemeProvider>
     </React.Fragment>
@@ -2546,7 +3227,10 @@ function getSteps() {
     "SECRET 3: FREE-FOR-LIFE!",
     "BONUS 1: Funnel Hack Russell",
     "BONUS 2: Use THIS Funnel",
-    "BONUS 3: Community & Accountability"
+    "BONUS 3: Find Your TEAM",
+    "OFFER 1: ClickFunnels Stack",
+    "OFFER 2: Affiliate Stack",
+    "OFFER 3: Traffic Stack"
   ];
 }
 
@@ -2565,7 +3249,13 @@ function getStepContent(step) {
     case 5:
       return <Step5 />;
     case 6:
-    return <Step6 />;
+      return <Step6 />;
+    case 7:
+      return <Step7 />;
+    case 8:
+      return <Step8 />;
+    case 9:
+      return <Step9 />;
     default:
       return <StepUnknown />;
   }
@@ -2622,24 +3312,6 @@ function VerticalLinearStepper() {
 
       <Typography className={classes.hidden}>&nbsp;</Typography>
       <ThemeProvider theme={theme2}>
-        {/* <Typography className={classes.headline} variant="h3" component="h1">
-          <strong>
-            <em>
-              <u>THE CHALLENGE:</u>
-            </em>
-          </strong>
-          <br />
-          Get ClickFunnels{" "}
-          <b>
-            <span className={classes.nowrap}>FREE-FOR-LIFE</span>
-          </b>{" "}
-          in{" "}
-          <u>
-            <span className={classes.nowrap}>Under 24-Hours</span>
-          </u>{" "}
-          (3&nbsp;Secrets&nbsp;Exposed!)
-        </Typography> */}
-
         <Typography className={classes.headline} variant="h3" component="h1">
           <strong>
               <u>ClickFunnels Pricing:</u>
