@@ -36,6 +36,9 @@ const aff_sub = window.getAllUrlParams().aff_sub || "freeforlifefunnel";
 const aff_sub2 = window.getAllUrlParams().aff_sub2 || "";
 const affiliatestring = "?cf_affiliate_id="+cf_affiliate_id+"&affiliate_id="+affiliate_id+"&aff_sub="+aff_sub+"&aff_sub2="+aff_sub2;
 
+// gleam=KNJ8c
+const gleam = window.getAllUrlParams().gleam || "KNJ8c";
+
 // https://daniel-lundin.github.io/react-dom-confetti/
 const confettiConfig = {
   angle: 90,
@@ -165,6 +168,12 @@ const useStyles = makeStyles(theme => ({
     maxWidth: "768px",
     marginTop: theme.spacing(4),
     marginBottom: theme.spacing(2)
+  },
+  p2bc: {
+    maxWidth: "768px",
+    marginTop: theme.spacing(4),
+    marginBottom: theme.spacing(2),
+    textAlign: "center"
   },
   p2b2: {
     maxWidth: "768px",
@@ -564,7 +573,7 @@ function Step7() {
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
-          You'll get FREE Access to the Affiliate Teams Inner Circle, so long as you <strong>remain an active ClickFunnels customers</strong> under a "ClickFunnels FREE-FOR-LIFE Funnel" affiliate.
+          You'll get FREE Access to the Affiliate Teams Inner Circle, so long as you <strong>remain an active ClickFunnels customers</strong> under a “ClickFunnels FREE-FOR-LIFE Funnel” affiliate.
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
@@ -746,7 +755,7 @@ https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db
         <Typography className={classes.p2b} variant="h5" component="p">
           <span role="img" aria-label="tick">
             ✅
-          </span>{" "}Affiliate Teams Inner Circle <span class="red"><strong>(Value $49/mth)</strong></span>
+          </span>{" "}Affiliate Teams Inner Circle <span class="red"><strong>(Value $588/yr)</strong></span>
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
@@ -867,7 +876,7 @@ https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db
       </ThemeProvider>
 
       <Typography className={classes.p2b} variant="h5" component="p">
-        Ready for the next stack?
+        Ready for the next stack? (...it's the ROCKET FUEL to LAUNCHING YOUR NEXT FUNNEL)
       </Typography>
 
     </React.Fragment>
@@ -881,7 +890,445 @@ function Step8() {
     <React.Fragment>
 
       <Typography className={classes.p2b} variant="h5" component="p">
-        Comming Soon...
+        When You <em>Buy ONE FUNNEL AWAY CHALLENGE (via Affiliate Bootcamp)</em> Under My Affiliate Link <strong>(By Clicking The Links Below)</strong>...
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        Then I'm Going To GIVE To You The <em>BIGGEST</em>, <strong>MOST EPIC</strong>, <u>MOST VALUABLE</u> Affiliate <strong><u>BONUES STACK</u></strong> On This Planet!!!
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        ( It's My Way Of Saying <em>THANK YOU! ... Again!</em>{" "}<span role="img" aria-label="face with heart eyes">
+          😍
+        </span>{" "})
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        P.S Buying the One Funnel Away Challenge <em>via Affiliate Bootcamp</em> gives you the <strong>BEST OFFER</strong> because you get <u>3 Awesome Affiliate Bootcamp Bonuses <strong>(for FREE!)</strong></u>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}<strong>Buy ONE FUNNEL AWAY CHALLENGE (via Affiliate Bootcamp) And You Get...</strong>
+      </Typography>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/_sWE-ofa-header-1.jpg"
+                alt="One Funnel Away Challenge - Imagine Russell Brunson TRAINING You For 30 Days, and helping you launch your first (or next) funnel, (with DAILY TRAINING and LIVE COACHING from two of his Two Comma Club coaches) ...For Just $100"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+            target="_blank"
+          >
+            Get One Funnel Away Challenge (via Affilate Bootcamp!)
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/PMSA-ofa-ecovers-2.jpg"
+                alt="One Funnel Away Challenge - Bonus Products"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+            target="_blank"
+          >
+            Get One Funnel Away Challenge (via Affilate Bootcamp!)
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/swqH-ofa-affiliates-stack-4.jpg"
+                alt="One Funnel Away Challenge - Stack $100"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+            target="_blank"
+          >
+            Get One Funnel Away Challenge (via Affilate Bootcamp!)
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/QR5p-ofa-video-3.jpg"
+                alt="One Funnel Away Challenge - Video"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+            target="_blank"
+          >
+            Get One Funnel Away Challenge (via Affilate Bootcamp!)
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      <strong>... BUY NOW, AND I'LL GIVE YOU ALL THIS ...</strong>
+      </Typography>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>FREE Shipping for One Funnel Away Challenge Kit <span class="red">(Value $29.95)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/z3JS-affiliate-stack-postage-1.jpg"
+          alt="FREE Shipping for One Funnel Away Challenge Kit"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          THE BEST DEAL! Get all the awesome physical products ... <u>SHIPPED RIGHT TO YOUR FRONT DOOR</u> ... to <strong>ACCELERATE</strong> your <em>One Funnel Away Chalenge!</em>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          I can't explain to you just how <em>VALUABLE</em> having the <u>PHYSICAL WORKBOOK</u> is during this challenge. Mine is FULL of notes on <strong>EVERY PAGE!</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          You'll <em>tressure</em> the <strong>PHYSICAL BOOK</strong>, and really start seeing all the <u>PATTERNS</u> between each 30 day plan.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          The <strong>MP3 Player</strong> will be your <u>BEST FRIEND</u> while communiting, doing chores, at the gym, ...anytime, anywhere!
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong><em>How do you get it?</em></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Go to <a href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring} target="_blank">One Funnel Away Challenge (via Affiliate Bootcamp)</a>, fill in your details and choose the option "ONE FUNNEL AWAY CHALLENGE (Affiliate Bootcamp) <strong>$100 + Shipping</strong>".
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Send me your receipt and I will reimburse you for the shipping costs via Paypal (up to $29.95 for international shipping).
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong><em>What's inside the One Funnel Away Challenge Kit?</em></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}The "30 Days" 550-page Hardcover Book (Value $97)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}The One Funnel Away Challenge Workbook (Value $97)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}MP3 Player with the Live Recordings of the FIRST One Funnel Away Challenge (Value $297)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}PLUS, Other Awesome Stuff...
+        </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>Lifetime Recurring Affiliate Programs List White Label Rights <span class="red">(Value $297)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/7K1D-affiliate-stack-ultimate-list-of-lifetime-recurring-commissions-2.jpg"
+          alt="Lifetime Recurring Affiliate Programs List White Label Rights"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+            I’ve been maintaining a Google Sheet that currently contains a list of <strong>130 Lifetime Recurring Affiliate Programs.</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+            It’s the <u>LARGEST list of its kind</u> and I'm <em>constantly updating it</em> as I find new affiliate programs.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+            With the <u>white-label rights</u> to this document, you can pass it off as <strong>your own</strong> and add links back to your own site if you wish.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+            It also works <em>really well</em> as a lead magnet or as a resource <u>you can give away</u> on your blog or Facebook group.
+        </Typography>
+
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>3 High Converting OFA Share Funnels <span class="red">(Value $197)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/lN7_-affiliate-stack-3-high-converting-ofa-share%20funnels-3.jpg"
+          alt="3 High Converting OFA Share Funnels"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>3 Share Funnels</strong> for promoting the One Funnel Away Challenge by 3 of the <em>most successful OFA affiliates</em>:
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}Doug Boughton (Dream Car Winner)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}Damien Menu
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}Kevin Steven
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}... and I'll be adding more soon!
+        </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>Lifetime “Affiliate Stack” Updates <span class="red">(Value PRICELESS)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/36Mp-affiliate-stack-updates-for-life-affiliate-stack-4.jpg"
+          alt="Lifetime Affiliate Stack Updates"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          This stack is just getting started!
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          There are <strong>BIG PLANS</strong> to continue to <em>GROW THIS STACK</em> with products <u>PURCHASED &amp; MADE</u> just for YOU.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          ...and you will get it ALL FOR FREE — <strong>FOREVERRRRR!!!</strong>
+        </Typography>
+
+      </ThemeProvider>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>The Ultimate Affiliate BONUS STACK</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}FREE Shipping for One Funnel Away Challenge Kit <span class="red"><strong>(Value $29.95)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}Lifetime Recurring Affiliate Programs List White Label Rights <span class="red"><strong>(Value $297)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}3 High Converting OFA Share Funnels <span class="red"><strong>(Value $197)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}Lifetime “Affiliate Stack” Updates <span class="red"><strong>(Value PRICELESS)</strong></span>
+        </Typography>
+        <Typography className={classes.p2b} variant="h3" component="p">
+          <strong><u>TOTAL VALUE:</u></strong> <span class="red"><strong>$523.95</strong></span>
+        </Typography>
+      </ThemeProvider>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          When you <em>buy The One Funnel Away Challenge (via Affiliate Bootcamp)</em> under my affiliate link <strong>(by clicking the links below)</strong>...
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Your email address will show up in my affiliate dashboard and I will email to you The Ultimate Affiliate BONUS STACK!
+        </Typography>
+
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+        </Typography>
+      </ThemeProvider>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <strong>GET ONE FUNNEL AWAY CHALLENGE (VIA AFFILIATE BOOTCAMP!)</strong>
+        </Typography>
+
+      <Card className={classes.card}>
+        <CardActionArea>
+          <CardContent className={classes.cardContent}>
+            <Link
+              href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+              target="_blank"
+            >
+              <img
+                className={classes.imageCard}
+                src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/AnLl-ofa-cta-5.jpg"
+                alt="One Funnel Away Challenge - Call to action"
+              />
+            </Link>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            variant="contained"
+            color="primary"
+            href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring}
+            target="_blank"
+          >
+            Get One Funnel Away Challenge (via Affilate Bootcamp!)
+          </Button>
+        </CardActions>
+      </Card>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+        </Typography>
+      </ThemeProvider>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        Ready for the next stack? (...it's the LIFE BLOOD of your ONLINE BUSINESS)
       </Typography>
 
     </React.Fragment>
@@ -895,8 +1342,424 @@ function Step9() {
     <React.Fragment>
 
       <Typography className={classes.p2b} variant="h5" component="p">
-        Comming Soon...
+        <strong>BRAVO!</strong> You've gone <u>ALL IN!</u>
       </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}You've got your <strong>ClickFunnels account!</strong>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}You've got your <strong>ClickFunnels Affiliate account!</strong>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}You've funnel hacked <strong>Russell's Best Funnels!</strong>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}You've launched your <strong>ClickFunnels FREE-FOR-LIFE Funnel!</strong>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}You've got a team, support &amp; resources on <strong>Affiliate Teams!</strong>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}You've accepted the <strong>24-Hour Challenge &amp; joined the FB Group!</strong>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}You've grabbed the <strong>ClickFunnels Stack</strong>, and your <strong>FunnelHacker Blackbox <em>is being Delivered To Your Door!</em></strong>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        <span role="img" aria-label="tick">
+          ✅
+        </span>{" "}You've got the <strong>Affiliate Stack</strong>, joined <strong>The One Funnel Away 30 Day Challenge (via Affiliate Bootcamp)</strong>, and your <strong>One Funnel Away Challenge Kit <em>is being Delivered To Your Door!</em></strong>
+      </Typography>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+        </Typography>
+      </ThemeProvider>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        There is only <strong><u>ONE MORE THING</u></strong> you <strong><em>NEED</em></strong> to Get ClickFunnels <em>FREE-FOR-LIFE</em> in <strong>Under 24-Hours!</strong>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h3" component="p">
+        <strong>TRAFFIC!!!</strong>{" "}<span role="img" aria-label="rocket">
+          🚀
+        </span>
+      </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        And because you've gone <strong><u>ALL IN TODAY</u></strong>...
+      </Typography>
+
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      <strong>... I'M GIVING YOU ALL THIS <span class="red">FOR FREE</span>{" "}<span role="img" aria-label="face with heart eyes">
+        😍
+      </span></strong>
+      </Typography>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>Get <em>YOUR OWN</em> Gleam “Viral Loop” put into your FREE-FOR-LIFE Funnel <span class="red">(Value $468/year + Traffic!!!)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/DWJW-traffic-stack-your-gleam-actions-1-v2.jpg"
+          alt="Get YOUR OWN Gleam Viral Loop put into your FREE-FOR-LIFE Funnel"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>Viral Loop</strong> = person uses this funnel -> <strong>shares</strong> with a friend -> the friend uses this funnel -> tells <em>another friend</em> who uses this funnel -> <strong>cycle is repeated.</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Gleam is an AWESOME tool to grow your <u>TRAFFIC</u> &amp; <strong>EMAIL LIST.</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          As you scroll down, you'll see how we use Gleam to offer <u>YOU</u> the Traffic Stack for <strong>FREE</strong> in exchange for completing <strong><em>ACTIONS.</em></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          With Gleam “Instant Rewards” you can create <u>UNLOCKABLE REWARDS</u> using <strong>MILLIONS</strong> of action combinations!
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Drive <strong>TRAFFIC &amp; GROWTH</strong> with actions like...
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> Visit this webpage
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> Sign up for our Newsletter
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> Visit @Username on Facebook
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> View this Post on Facebook
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> Visit @Username on Instagram
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> View this Photo on Instagram
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> Visit @Channel on YouTube
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> Follow @Username on Twitter
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> Retweet @Username on Twitter
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> Pin Photo on Pinterest
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>ACTION:</strong> Answer this Question?
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>... PLUS so much MORE!</strong> (see example of <a href="https://gleam.io/examples/competitions/every-entry-type?via=1412202" target="_blank">Every Gleam Action Type</a>)
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <br />
+          <strong><em>How do you get it?</em></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Unlock the <u>Traffic Stack</u>, and I'll show you how to put <em><u>YOUR OWN</u></em> <strong>Gleam “Viral Loop”</strong> into <u>YOUR</u> ClickFunnels FREE-FOR-LIFE Funnel...
+        </Typography>
+
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>Million Dollar Ad Swipe Library White Label Rights <span class="red">(Value $197)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/9cGT-traffic-stack-million-dollar-ad-swipe-library-2.jpg"
+          alt="Million Dollar Ad Swipe Library White Label Rights"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+            I took a look at the Facebook ads of <strong>40 of the TOP Internet Entrepreneurs</strong> and created this <u>AMAZING SWIPE FILE</u> for you to study and use.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+            Inside, you’ll see the <em>entire ad copy and images</em> of <strong>MILLIONAIRE MARKETERS</strong> like...
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>Russell Brunson</strong> - Founder of ClickFunnels and author of DotCom Secrets and Expert Secrets.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>Dan Henry</strong> - Creator of a $5 Million Online Business, which teaches you to grow an online advertising business.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>Ryan Levesque</strong> - Author of the #1 National Best-Selling Book "Ask". He just released a follow up book called “Choose”.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>Peng Joon</strong> - Creator of the Content Multiplier Formula, which got him over 100 million video views and generated 8-figures in sales.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>Grant Cardone</strong> - #1 sales and marketing trainer in the world, and the author of The 10x Rule.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="thumbs up">
+            👍
+          </span>{" "}<strong>...and 35 MORE!</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+            You can use this resource as an <em>inspiration</em> for <u>your own Facebook ads</u> or use it as a great LEAD MAGNET to give away as well and <strong>build your email list.</strong>
+        </Typography>
+
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>7 Deadly Facebook Post Sins That Will Destroy Your Reach, Engagement, Growth &amp; Profits <span class="red">(Value $37)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/n0SQ-traffic-stack-7-facebook-sins-3.jpg"
+          alt="7 Deadly Facebook Post Sins That Will Destroy Your Reach, Engagement, Growth and Profits"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>NEVER</strong> do any of the things in this list if you want to get <em>MAXIMUM</em> <u>reach and engagement</u> on your Facebook Posts.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          Committing these deadly sins will <u>CRUSH</u> your <strong>business growth and profits</strong> on Facebook.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          This <em>POWERFUL</em> list was created by <u>Jacob Caris</u> (recent <strong>Dream Car Winner</strong> and a real RISING STAR in the ClickFunnels community).
+        </Typography>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}<strong>Lifetime “Traffic Stack” Updates <span class="red">(Value PRICELESS)</span></strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/4aKY-traffic-stack-updates-for-life-traffic-stack-4.jpg"
+          alt="Lifetime Traffic Stack Updates"
+        />
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          This stack is just getting started!
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          There are <strong>BIG PLANS</strong> to continue to <em>GROW THIS STACK</em> with products <u>PURCHASED &amp; MADE</u> just for YOU.
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          ...and you will get it ALL FOR FREE — <strong>FOREVERRRRR!!!</strong>
+        </Typography>
+
+      </ThemeProvider>
+
+      <Typography className={classes.p2b} variant="h5" component="p">
+        . <br />
+        <br />
+        . <br />
+        <br />
+        . <br />
+      </Typography>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <strong>The Ultimate Traffic BONUS STACK</strong>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}Get <em>YOUR OWN</em> Gleam “Viral Loop” put into your FREE-FOR-LIFE Funnel <span class="red"><strong>(Value $468/year + Traffic!!!)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}Million Dollar Ad Swipe Library White Label Rights <span class="red"><strong>(Value $197)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}7 Deadly Facebook Post Sins That Will Destroy Your Reach, Engagement, Growth & Profits <span class="red"><strong>(Value $37)</strong></span>
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          <span role="img" aria-label="tick">
+            ✅
+          </span>{" "}Lifetime “Traffic Stack” Updates <span class="red"><strong>(Value PRICELESS)</strong></span>
+        </Typography>
+        <Typography className={classes.p2b} variant="h3" component="p">
+          <strong><u>TOTAL VALUE:</u></strong> <span class="red"><strong>$468/year + $234 + Traffic!!!</strong></span>
+        </Typography>
+      </ThemeProvider>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+        </Typography>
+
+      <ThemeProvider theme={theme2}>
+        <Typography className={classes.p2b} variant="h5" component="p">
+          When you get to <strong><span class="red">100 POINTS</span></strong> (by taking <em>simple actions</em> below)...
+        </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          You will <u><strong>AUTOMATICALLY</strong></u> unlock The Ultimate Traffic BONUS STACK!
+          <br /><br />
+        </Typography>
+
+      </ThemeProvider>
+
+        {/* Test with gleam=uNckE and gleam=KNJ8c (default) */}
+
+        <a class="e-widget no-button" target="_blank" href={"https://gleam.io/"+gleam+"/traffic-stack"} rel="nofollow">Unlock Traffic Stack Reward</a>
+        <ScriptTag isHydrating={false} async="true" type="text/javascript" src="https://js.gleam.io/e.js" />
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+          . <br />
+          <br />
+          . <br />
+          <br />
+          . <br />
+        </Typography>
 
     </React.Fragment>
   );
@@ -1025,7 +1888,7 @@ function Step0() {
         <Typography className={classes.p2b} variant="h5" component="p">
           <span role="img" aria-label="face with heart eyes">
             😍
-          </span>{" "}Today you <strong>JOIN ClickFunnels</strong> & <strong>GROW Your Business!</strong>
+          </span>{" "}Today you <strong>JOIN ClickFunnels</strong> &amp; <strong>GROW Your Business!</strong><br /><br />
         </Typography>
       </ThemeProvider>
 
@@ -2741,7 +3604,7 @@ function Step4() {
           </span>{" "}
           Is your <u>MIND BLOWN!?!</u> <br />
           <br />
-          <u><strong>BIG TIP:</strong></u> The <strong>Traffic Secrets</strong> one-time-offer in the <strong>DotComSecrets Book</strong> funnel is <em>ROCKET FUEL</em> for the next Bonus...
+          <u><strong>BIG TIP :</strong></u> The <strong>Traffic Secrets</strong> one-time-offer in the <strong>DotComSecrets Book</strong> funnel is <em>ROCKET FUEL</em> for the next Bonus...
           <br /><br />
           When you're ready, move on to BONUS 2 (...this one{" "}
           <strong>CHANGES EVERYTHING</strong>)!
@@ -3409,7 +4272,7 @@ function VerticalLinearStepper() {
                     onClick={handleNext}
                     className={classes.button}
                   >
-                    {activeStep === steps.length - 1 ? "Finish" : "Next"}
+                    {activeStep === steps.length - 1 ? "What Next?..." : "Next"}
                   </Button>
                 </div>
               </div>
@@ -3419,8 +4282,39 @@ function VerticalLinearStepper() {
       </Stepper>
       {activeStep === steps.length && (
         <Paper square elevation={0} className={classes.resetContainer}>
-          <Typography>If you like this funnel please share it!&nbsp;<span role="img" aria-label="Smiling Face With Heart-Eyes">😍</span>
-          </Typography>
+
+      <Typography className={classes.p2bc} variant="h4" component="p">
+        <span role="img" aria-label="Smiling Face With Heart-Eyes">😍😍😍</span>{" "}THANK YOU{" "}<span role="img" aria-label="Smiling Face With Heart-Eyes">😍😍😍</span>
+      </Typography>
+
+        <Typography className={classes.p2b} variant="h5" component="p">
+        <img
+          className={classes.imageCard75}
+          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/wwPA-kim.gif"
+          alt="Kim makes it rain!"
+        />
+        </Typography>
+
+      <Typography className={classes.p2bc} variant="h4" component="p">
+        <span role="img" aria-label="flying money">
+          💸💸💸
+        </span>&nbsp;Now put this funnel to work for <u><strong>YOU!</strong></u>&nbsp;<span role="img" aria-label="flying money">
+          💸💸💸
+        </span>
+      </Typography>
+
+      <Typography className={classes.p2bc} variant="h2" component="p">
+        “You're just <strong>THIS</strong> funnel away... #FreeForLifeFunnel”
+      </Typography>
+
+      <Typography className={classes.p2bc} variant="h4" component="p">
+        <span role="img" aria-label="hearts thumbs-up heart">
+          ❤️👇👇👇❤️
+        </span>&nbsp;<strong>SHARE THIS</strong>&nbsp;<span role="img" aria-label="hearts thumbs-up heart">
+          ❤️👇👇👇❤️
+        </span>
+      </Typography>
+
           <Button
             variant="contained"
             color="primary"
