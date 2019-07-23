@@ -36,8 +36,8 @@ const aff_sub = window.getAllUrlParams().aff_sub || "freeforlifefunnel";
 const aff_sub2 = window.getAllUrlParams().aff_sub2 || "";
 const affiliatestring = "?cf_affiliate_id="+cf_affiliate_id+"&affiliate_id="+affiliate_id+"&aff_sub="+aff_sub+"&aff_sub2="+aff_sub2;
 
-// gleam=KNJ8c
-const gleam = window.getAllUrlParams().gleam || "KNJ8c";
+// gleam=kvVlp
+const gleam = window.getAllUrlParams().gleam || "kvVlp";
 
 // https://daniel-lundin.github.io/react-dom-confetti/
 const confettiConfig = {
@@ -573,7 +573,7 @@ function Step7() {
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
-          You'll get FREE Access to the Affiliate Teams Inner Circle, so long as you <strong>remain an active ClickFunnels customers</strong> under a “ClickFunnels FREE-FOR-LIFE Funnel” affiliate.
+          You'll get FREE Access to the Affiliate Teams Inner Circle, so long as you <strong>remain an active ClickFunnels customer</strong> under a “ClickFunnels FREE-FOR-LIFE Funnel” affiliate.
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
@@ -1046,7 +1046,7 @@ function Step8() {
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
-          THE BEST DEAL! Get all the awesome physical products ... <u>SHIPPED RIGHT TO YOUR FRONT DOOR</u> ... to <strong>ACCELERATE</strong> your <em>One Funnel Away Chalenge!</em>
+          THE BEST DEAL! Get all the awesome physical products ... <u>SHIPPED RIGHT TO YOUR FRONT DOOR</u> ... to <strong>ACCELERATE</strong> your <em>One Funnel Away Challenge!</em>
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
@@ -1521,12 +1521,6 @@ function Step9() {
         <Typography className={classes.p2b} variant="h5" component="p">
           <span role="img" aria-label="thumbs up">
             👍
-          </span>{" "}<strong>ACTION:</strong> Pin Photo on Pinterest
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
           </span>{" "}<strong>ACTION:</strong> Answer this Question?
         </Typography>
 
@@ -1585,7 +1579,7 @@ function Step9() {
         <Typography className={classes.p2b} variant="h5" component="p">
           <span role="img" aria-label="thumbs up">
             👍
-          </span>{" "}<strong>Dan Henry</strong> - Creator of a $5 Million Online Business, which teaches you to grow an online advertising business.
+          </span>{" "}<strong>Dan Henry</strong> - Creator of a $5 Million Online Business, which teaches you how to grow an online advertising business.
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
@@ -1738,7 +1732,7 @@ function Step9() {
 
       <ThemeProvider theme={theme2}>
         <Typography className={classes.p2b} variant="h5" component="p">
-          When you get to <strong><span class="red">100 POINTS</span></strong> (by taking <em>simple actions</em> below)...
+          When you get to <strong><span class="red">10 ACTIONS</span></strong>...
         </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
@@ -1748,9 +1742,9 @@ function Step9() {
 
       </ThemeProvider>
 
-        {/* Test with gleam=uNckE and gleam=KNJ8c (default) */}
+        {/* Test with gleam=uNckE and gleam=kvVlp (default) */}
 
-        <a class="e-widget no-button" target="_blank" href={"https://gleam.io/"+gleam+"/traffic-stack"} rel="nofollow">Unlock Traffic Stack Reward</a>
+        <a class="e-widget no-button" target="_blank" href={"https://gleam.io/"+gleam+"/the-ultimate-traffic-bonus-stack"} rel="nofollow">Unlock Traffic Stack Reward</a>
         <ScriptTag isHydrating={false} async="true" type="text/javascript" src="https://js.gleam.io/e.js" />
 
         <Typography className={classes.p2b} variant="h5" component="p">
