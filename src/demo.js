@@ -445,94 +445,6 @@ function Step7() {
         <Typography className={classes.p2b} variant="h5" component="p">
           <span role="img" aria-label="tick">
             ✅
-          </span>{" "}<strong>FREE Shipping for The FunnelHacker Blackbox <span class="red">(Value $24.95)</span></strong>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-        <img
-          className={classes.imageCard75}
-          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/xE0t-clickfunnels-funnelhacker-blackbox.jpg"
-          alt="FREE Shipping for The FunnelHacker Blackbox"
-        />
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          THE BEST DEAL! Get BOTH the Expert Secrets book PLUS DotcomSecrets book AND 4 Other Unadvertised Booklets!
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          These two books are a MUST READ for every ClickFunnels user - covering the ART &amp; SCIENCE of Sales Funnels.
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <strong><em>How do you get it?</em></strong>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          Go to either <a href={"https://dotcomsecrets.com/go"+affiliatestring} target="_blank">DotCom Secrets</a> or <a href={"https://expertsecrets.com/"+affiliatestring} target="_blank">Expert Secrets</a>, fill in your details and on STEP 2 choose to UPGRADE to the "BEST DEAL! Get BOTH...".
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          Send me your receipt and I will reimburse you for the shipping costs via Paypal (up to $24.95 for international shipping).
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <strong><em>What's inside the FunnelHacker Blackbox?</em></strong>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}Expert Secrets book (Value $19.95)
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}DotCom Secrets book (Value $19.95)
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}ClickFunnels Secrets booklet (Value $14.95)
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}Actionetics Secrets booklet (Value $14.95)
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}Secrets Sketches booklet (Value $14.95)
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}Fill Your Funnel Secrets booklet (Value $14.95)
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}PLUS, Other Awesome Funnel Hacker Stuff...
-        </Typography>
-
-      <Typography className={classes.p2b} variant="h5" component="p">
-        . <br />
-        <br />
-        . <br />
-        <br />
-        . <br />
-      </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="tick">
-            ✅
           </span>{" "}<strong>Affiliate Teams Inner Circle <span class="red">(Value $49/mth | $588/yr)</span></strong>
         </Typography>
 
@@ -749,12 +661,6 @@ https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db
         <Typography className={classes.p2b} variant="h5" component="p">
           <span role="img" aria-label="tick">
             ✅
-          </span>{" "}FREE Shipping for The FunnelHacker Blackbox <span class="red"><strong>(Value $24.95)</strong></span>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="tick">
-            ✅
           </span>{" "}Affiliate Teams Inner Circle <span class="red"><strong>(Value $588/yr)</strong></span>
         </Typography>
 
@@ -776,7 +682,7 @@ https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db
           </span>{" "}Lifetime “ClickFunnels Stack” Updates <span class="red"><strong>(Value PRICELESS)</strong></span>
         </Typography>
         <Typography className={classes.p2b} variant="h3" component="p">
-          <strong><u>TOTAL VALUE:</u></strong> <span class="red"><strong>$9,972/yr + $521.95</strong></span>
+          <strong><u>TOTAL VALUE:</u></strong> <span class="red"><strong>$9,972/yr + $497</strong></span>
         </Typography>
       </ThemeProvider>
 
@@ -1031,83 +937,6 @@ function Step8() {
       </Typography>
 
       <ThemeProvider theme={theme2}>
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="tick">
-            ✅
-          </span>{" "}<strong>FREE Shipping for One Funnel Away Challenge Kit <span class="red">(Value $29.95)</span></strong>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-        <img
-          className={classes.imageCard75}
-          src="https://uploads.codesandbox.io/uploads/user/0b22c377-e160-4221-9087-53627a7647db/z3JS-affiliate-stack-postage-1.jpg"
-          alt="FREE Shipping for One Funnel Away Challenge Kit"
-        />
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          THE BEST DEAL! Get all the awesome physical products ... <u>SHIPPED RIGHT TO YOUR FRONT DOOR</u> ... to <strong>ACCELERATE</strong> your <em>One Funnel Away Challenge!</em>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          I can't explain to you just how <em>VALUABLE</em> having the <u>PHYSICAL WORKBOOK</u> is during this challenge. Mine is FULL of notes on <strong>EVERY PAGE!</strong>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          You'll <em>tressure</em> the <strong>PHYSICAL BOOK</strong>, and really start seeing all the <u>PATTERNS</u> between each 30 day plan.
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          The <strong>MP3 Player</strong> will be your <u>BEST FRIEND</u> while communiting, doing chores, at the gym, ...anytime, anywhere!
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <strong><em>How do you get it?</em></strong>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          Go to <a href={"https://affiliatebootcamp.com/onefunnelaway"+affiliatestring} target="_blank">One Funnel Away Challenge (via Affiliate Bootcamp)</a>, fill in your details and choose the option "ONE FUNNEL AWAY CHALLENGE (Affiliate Bootcamp) <strong>$100 + Shipping</strong>".
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          Send me your receipt and I will reimburse you for the shipping costs via Paypal (up to $29.95 for international shipping).
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <strong><em>What's inside the One Funnel Away Challenge Kit?</em></strong>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}The "30 Days" 550-page Hardcover Book (Value $97)
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}The One Funnel Away Challenge Workbook (Value $97)
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}MP3 Player with the Live Recordings of the FIRST One Funnel Away Challenge (Value $297)
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="thumbs up">
-            👍
-          </span>{" "}PLUS, Other Awesome Stuff...
-        </Typography>
-
-      <Typography className={classes.p2b} variant="h5" component="p">
-        . <br />
-        <br />
-        . <br />
-        <br />
-        . <br />
-      </Typography>
 
         <Typography className={classes.p2b} variant="h5" component="p">
           <span role="img" aria-label="tick">
@@ -1242,12 +1071,6 @@ function Step8() {
         <Typography className={classes.p2b} variant="h5" component="p">
           <span role="img" aria-label="tick">
             ✅
-          </span>{" "}FREE Shipping for One Funnel Away Challenge Kit <span class="red"><strong>(Value $29.95)</strong></span>
-        </Typography>
-
-        <Typography className={classes.p2b} variant="h5" component="p">
-          <span role="img" aria-label="tick">
-            ✅
           </span>{" "}Lifetime Recurring Affiliate Programs List White Label Rights <span class="red"><strong>(Value $297)</strong></span>
         </Typography>
 
@@ -1263,7 +1086,7 @@ function Step8() {
           </span>{" "}Lifetime “Affiliate Stack” Updates <span class="red"><strong>(Value PRICELESS)</strong></span>
         </Typography>
         <Typography className={classes.p2b} variant="h3" component="p">
-          <strong><u>TOTAL VALUE:</u></strong> <span class="red"><strong>$523.95</strong></span>
+          <strong><u>TOTAL VALUE:</u></strong> <span class="red"><strong>$494</strong></span>
         </Typography>
       </ThemeProvider>
 
@@ -1384,13 +1207,13 @@ function Step9() {
       <Typography className={classes.p2b} variant="h5" component="p">
         <span role="img" aria-label="tick">
           ✅
-        </span>{" "}You've grabbed the <strong>ClickFunnels Stack</strong>, and your <strong>FunnelHacker Blackbox <em>is being Delivered To Your Door!</em></strong>
+        </span>{" "}You've grabbed the <strong>ClickFunnels Stack</strong>, joined <strong>The Affiliate Teams Inner Circle</strong>, and your <strong>Ultimate ClickFunnels BONUSES <em>are in your Inbox!</em></strong>
       </Typography>
 
       <Typography className={classes.p2b} variant="h5" component="p">
         <span role="img" aria-label="tick">
           ✅
-        </span>{" "}You've got the <strong>Affiliate Stack</strong>, joined <strong>The One Funnel Away 30 Day Challenge (via Affiliate Bootcamp)</strong>, and your <strong>One Funnel Away Challenge Kit <em>is being Delivered To Your Door!</em></strong>
+        </span>{" "}You've got the <strong>Affiliate Stack</strong>, joined <strong>The One Funnel Away Challenge (via Affiliate Bootcamp)</strong>, and your <strong>Ultimate Affiliate BONUSES <em>are in your Inbox!</em></strong>
       </Typography>
 
       <ThemeProvider theme={theme2}>
@@ -3748,7 +3571,7 @@ function Step5() {
               <strong>
                 I Add YOUR Affiliate ID Into The Email “Welcome Sequence”
               </strong>{" "}
-              For Anyone YOU Share This With That Signs Up (Zero Copywritting
+              For Anyone YOU Share This With That Signs Up (Zero Copywriting
               Time For You)
               <br />
               <br />
@@ -3762,12 +3585,13 @@ function Step5() {
             <li>
               <strong>
                 I Cover All The Cost (Design, Development, Testing,
-                Copywritting, Hosting, Emailing, etc)
+                Copywriting, Hosting, Emailing, etc)
               </strong>{" "}
               So You Get 100% Pure Profit (Zero Cost For You)
             </li>
           </ol>
         </Typography>
+
 
         <Typography className={classes.p2b} variant="h5" component="p">
           . <br />
